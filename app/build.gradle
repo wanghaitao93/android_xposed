@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.example.eric.myapplication"
+        minSdkVersion 15
+        targetSdkVersion 15
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:appcompat-v7:26.0.0-beta1'
+    testImplementation 'junit:junit:4.12'
+    provided 'de.robv.android.xposed:api:82'
+    provided 'de.robv.android.xposed:api:82:sources'
+}
