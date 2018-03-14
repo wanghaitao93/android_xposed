@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eric.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textView" />
+
+    <Button
+        android:id="@+id/btn_check_root"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="Check Root" />
+
+
+    <Button
+        android:id="@+id/btn_install_apk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btn_check_root"
+        android:layout_alignTop="@+id/btn_check_root"
+        android:layout_marginTop="90dp"
+        android:text="Install APK" />
+
+    <Button
+        android:id="@+id/btn_uninstall_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Uninstall App" />
+
+    <Button
+        android:id="@+id/btn_open_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_uninstall_app"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:text="Open App" />
+
+</RelativeLayout>
+
