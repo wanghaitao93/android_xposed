@@ -15,7 +15,8 @@ android xposed 模块如何开发？ |[官网的案例实现，监听系统时�
 如何隐藏安装后的XposedInstall应用的图标？  |    [android隐藏应用图标](https://www.jianshu.com/p/0d64bce9fbd2/)    |   ok
 如何使用Android Studio 打包改了代码的XposedInstall应用的Apk? |  [［Android Studio 权威教程］打包、生成jks密钥、签名Apk、多渠道打包](http://blog.csdn.net/yy1300326388/article/details/48344411) | ok
 如何让xposedInstall与android版本相对应?   |  [Xposed框架对应各系统版本的下载与卸载](http://xposed.appkg.com/1152.html)    --  -- [XposedInstall Github](https://github.com/rovo89/XposedInstaller/releases)    |  ok (目前2.6.1)
-由于2.6.1以及以前的xposed版本源码是Eclipse  |[android studio 导入eclipse项目, 注意Jar包引用](https://www.jianshu.com/p/e96034f69dec)    | ok
-如何调用隐形调用xposed install方法使它激活(framework/module)    |  无 |
-如何调用android 系统重启机器激活xposed  |  无   | 
+由于2.6.1以及以前的xposed版本源码是Eclipse, 需要转成AS项目  |[android studio 导入eclipse项目, 注意Jar包引用](https://www.jianshu.com/p/e96034f69dec)    | ok
+添加开启和停止XposedInstaller程序的按钮及相应事件	|[adb shell 启动,停止android应用](http://blog.csdn.net/pingqingbo/article/details/20450951) 	| ok
+启动XposedInstaller 时隐藏Activity    | [android启动时隐藏Activity](https://www.jianshu.com/p/3afcaa959de2)  | ok
+通过重写的Activity下载和激活XposdInstaller  | 源码   | 
 

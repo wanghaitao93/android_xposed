@@ -46,8 +46,17 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_uninstall_app"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="39dp"
         android:text="Open App" />
+
+    <Button
+        android:id="@+id/btn_close_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_open_app"
+        android:layout_below="@+id/btn_open_app"
+        android:layout_marginTop="22dp"
+        android:text="Close App" />
 
 </RelativeLayout>
 

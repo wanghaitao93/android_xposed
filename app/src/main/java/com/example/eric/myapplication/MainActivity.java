@@ -29,30 +29,32 @@ public class MainActivity extends AppCompatActivity {
     private PackageInfo mPackageInfo;
     private Context mContext = MainActivity.this;
 
-
     private TextView tv;
-    private Button bt_check_root;
-    private Button bt_install_apk;
-    private Button bt_open_app;
-    private Button bt_uninstall_app;
+    private Button btn_check_root;
+    private Button btn_install_apk;
+    private Button btn_uninstall_app;
+    private Button btn_open_app;
+    private Button btn_close_app;
 
     // xposed package info
     private static String apkName = "de.robv.android.xposed.installer_v33_36570c.apk";
     private static String packageName = "de.robv.android.xposed.installer";
-    private static String className = "WelcomeActivity";
+//    private static String className = "WelcomeActivity";
+    private static String className = "CustomActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        bt_check_root = findViewById(R.id.btn_check_root);
-        bt_install_apk = findViewById(R.id.btn_install_apk);
-        bt_uninstall_app = findViewById(R.id.btn_uninstall_app);
-        bt_open_app = findViewById(R.id.btn_open_app);
+        btn_check_root = findViewById(R.id.btn_check_root);
+        btn_install_apk = findViewById(R.id.btn_install_apk);
+        btn_uninstall_app = findViewById(R.id.btn_uninstall_app);
+        btn_open_app = findViewById(R.id.btn_open_app);
+        btn_close_app = findViewById(R.id.btn_close_app);
 
         // check machine whether root
-        bt_check_root.setOnClickListener(new View.OnClickListener() {
+        btn_check_root.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (RootUtils.isRooted())
@@ -63,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // install apk
-        bt_install_apk.setOnClickListener(new View.OnClickListener() {
+        btn_install_apk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view)
             {
@@ -73,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // uninstall app
-        bt_uninstall_app.setOnClickListener(new View.OnClickListener() {
+        btn_uninstall_app.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view)
             {
@@ -82,17 +84,28 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // open app
-        bt_open_app.setOnClickListener(new View.OnClickListener() {
+        btn_open_app.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view)
             {
-                startApp(mContext);
+                openApp(mContext);
+            }
+        });
+
+        // close app
+        btn_close_app.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                closeApp(mContext);
             }
         });
 
     }
 
-    // acquire apk from assets floder & install apk
+    /*
+    *   acquire apk from assets floder & install apk
+     */
     public void installFromAssets()
     {
         try
@@ -244,12 +257,11 @@ public class MainActivity extends AppCompatActivity {
         intent.setAction(android.content.Intent.ACTION_VIEW);
         intent.setDataAndType(Uri.fromFile(file), "application/vnd.android.package-archive");
         context.startActivity(intent);
-        startApp(mContext);
+        openApp(mContext);
     }
 
     /*
     *  uninstall app
-    *
      */
     public void uninstalllAPP()
     {
@@ -260,16 +272,30 @@ public class MainActivity extends AppCompatActivity {
 
 
     /**
-     * installed & start app
+     *  open app
      */
-    private static void startApp(Context context)
+    private static void openApp(Context context)
     {
-        Log.i(TAG, "now startApp:  ");
+        Log.i(TAG, "open App  ");
         String s = "am start -S  " + packageName + "/"
                 + packageName + "." + className + " \n";
-        Log.i(TAG, s );
+        Log.i(TAG, s);
         execRootShellCmd(s);
     }
+
+    /*
+      *  close app
+     */
+    private static void closeApp(Context context)
+    {
+        Log.i(TAG, "close App");
+//        String s = "am force-stop " + packageName + " \n";
+        String s = "am force-stop " + packageName + " \n";
+
+        Log.i(TAG, s);
+        execRootShellCmd(s);
+    }
+
 
     /**
      * exe shell command
