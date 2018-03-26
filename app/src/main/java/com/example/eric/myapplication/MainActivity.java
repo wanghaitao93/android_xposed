@@ -33,14 +33,19 @@ public class MainActivity extends AppCompatActivity {
     private Button btn_check_root;
     private Button btn_install_apk;
     private Button btn_uninstall_app;
+    private Button btn_activate_app;
     private Button btn_open_app;
     private Button btn_close_app;
 
     // xposed package info
-    private static String apkName = "de.robv.android.xposed.installer_v33_36570c.apk";
+//    private static String apkName = "de.robv.android.xposed.installer_v33_36570c.apk";
+    private static String apkName = "app-release.apk";
+
     private static String packageName = "de.robv.android.xposed.installer";
-//    private static String className = "WelcomeActivity";
     private static String className = "CustomActivity";
+    private static String className_Welcome = "WelcomeActivity";
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
         btn_uninstall_app = findViewById(R.id.btn_uninstall_app);
         btn_open_app = findViewById(R.id.btn_open_app);
         btn_close_app = findViewById(R.id.btn_close_app);
+        btn_activate_app = findViewById(R.id.btn_activate_app);
 
         // check machine whether root
         btn_check_root.setOnClickListener(new View.OnClickListener() {
@@ -69,7 +75,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view)
             {
-                // acquire apk from assets floder & install apk
                 installFromAssets();
             }
         });
@@ -80,6 +85,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view)
             {
                 uninstalllAPP();
+            }
+        });
+
+        // activate app
+        btn_activate_app.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                activateApp(mContext);
             }
         });
 
@@ -265,11 +278,27 @@ public class MainActivity extends AppCompatActivity {
      */
     public void uninstalllAPP()
     {
-        Uri packageUri = Uri.parse("package:"+ packageName);
-        Intent intent = new Intent(Intent.ACTION_DELETE, packageUri);
-        startActivity(intent);
+//        Uri packageUri = Uri.parse("package:"+ packageName);
+//        Intent intent = new Intent(Intent.ACTION_DELETE, packageUri);
+//        startActivity(intent);
+        Log.i(TAG, "uninstall app");
+        String s = "pm uninstall " + packageName + "\n";
+        Log.i(TAG, s);
+        execRootShellCmd(s);
     }
 
+
+    /*
+    *   activate app
+     */
+    private static void activateApp(Context context)
+    {
+        Log.i(TAG, "open App  ");
+        String s = "am start -S  " + packageName + "/"
+                + packageName + "." + className + " \n";
+        Log.i(TAG, s);
+        execRootShellCmd(s);
+    }
 
     /**
      *  open app
@@ -278,7 +307,7 @@ public class MainActivity extends AppCompatActivity {
     {
         Log.i(TAG, "open App  ");
         String s = "am start -S  " + packageName + "/"
-                + packageName + "." + className + " \n";
+                + packageName + "." + className_Welcome + " \n";
         Log.i(TAG, s);
         execRootShellCmd(s);
     }
