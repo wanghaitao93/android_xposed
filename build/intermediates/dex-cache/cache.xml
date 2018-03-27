@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\eric\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\b6ffe5d913d85a08a549d6d48d620b49\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d9d589dc939ea486f21c048cce2a1366d6f30fe9">
+        <dex dex="C:\Users\eric\Project\android_xposed\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\eric\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\36d1da4032bbc402eba3bc88ba900ada\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6c47b3d6ef74a657a38945022be05eb3b4360628">
+        <dex dex="C:\Users\eric\Project\android_xposed\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\eric\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\8d6ff1d8e58c25edf5565c6f084f8cea\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d1665bf0bf1d4702216fd42524675d18c3789e87">
+        <dex dex="C:\Users\eric\Project\android_xposed\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\eric\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\372c0f5f8c19fd0a44bcad99b5a31415\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="926c07c980679a35530feb532d8a5b19147916c3">
+        <dex dex="C:\Users\eric\Project\android_xposed\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\eric\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\b82e8c5cf0f48b72ed8bcceabd45629c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1d4a04619afc2262389ed421b6762c77e9dc7a46">
+        <dex dex="C:\Users\eric\Project\android_xposed\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\eric\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\296b9b4180ea7cb10d4692a4f9799913\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="26ebe5f1e584ab68955c221073a9ba45b8adb80b">
+        <dex dex="C:\Users\eric\Project\android_xposed\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\eric\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\71c9c93b0e05c4ce39d1694552d9297c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="00290831ca6f060783db9c00f7d15c94b9096d7c">
+        <dex dex="C:\Users\eric\Project\android_xposed\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\eric\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\1acc08a91ae01e3380b5fc0d593d1180\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\eric\Project\android_xposed\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\eric\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.0.0-beta1\419585951f4c634aa292db0b734c29541a25b94a\support-annotations-26.0.0-beta1.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="419585951f4c634aa292db0b734c29541a25b94a">
+        <dex dex="C:\Users\eric\Project\android_xposed\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\eric\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\a3d937f0b469180792e4a6ba00b36b17\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e5ac95feaf0f7fe43e5581d852c5f5e252edea1">
+        <dex dex="C:\Users\eric\Project\android_xposed\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+
+</items>

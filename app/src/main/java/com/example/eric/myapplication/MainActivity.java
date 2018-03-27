@@ -37,10 +37,11 @@ public class MainActivity extends AppCompatActivity {
     private Button btn_open_app;
     private Button btn_close_app;
 
+    private static Process process = null;
+
     // xposed package info
 //    private static String apkName = "de.robv.android.xposed.installer_v33_36570c.apk";
     private static String apkName = "app-release.apk";
-
     private static String packageName = "de.robv.android.xposed.installer";
     private static String className = "CustomActivity";
     private static String className_Welcome = "WelcomeActivity";
@@ -51,6 +52,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        try {
+            process = Runtime.getRuntime().exec("su");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         btn_check_root = findViewById(R.id.btn_check_root);
         btn_install_apk = findViewById(R.id.btn_install_apk);
@@ -116,6 +123,23 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * install apk but hidden install interface
+     **/
+    public void slientInstall()
+    {
+        createFile();
+        Log.i(TAG, "start slient install apk");
+        File file = new File(tempPath);
+        Log.i(TAG , "file.getPath()：" + file.getPath());
+        if (file.exists()) {
+            System.out.println(file.getPath() + "==");
+            String s1 = "chmod 777 " + file.getPath()+ "\n";
+            String s2 = "LD_LIBRARY_PATH=/vendor/lib:/system/lib pm install -r " + file.getPath();
+            execRootShellCmd(s1, s2);
+        }
+    }
+
     /*
     *   acquire apk from assets floder & install apk
      */
@@ -147,63 +171,6 @@ public class MainActivity extends AppCompatActivity {
             Log.i(TAG , "installed apk");
         }
     }
-
-
-    /**
-     * install apk but hidden install interface
-     **/
-    public boolean slientInstall()
-    {
-        createFile();
-        Log.i(TAG, "start slient install apk");
-        File file = new File(tempPath);
-        boolean result = false;
-        Process process = null;
-        OutputStream out = null;
-        Log.i(TAG , "file.getPath()：" + file.getPath());
-        if (file.exists()) {
-            System.out.println(file.getPath() + "==");
-            try {
-                process = Runtime.getRuntime().exec("su");
-                out = process.getOutputStream();
-                DataOutputStream dataOutputStream = new DataOutputStream(out);
-                // acquire file all privilege
-                dataOutputStream.writeBytes("chmod 777 " + file.getPath()
-                        + "\n");
-                // install command
-                dataOutputStream
-                        .writeBytes("LD_LIBRARY_PATH=/vendor/lib:/system/lib pm install -r "
-                                + file.getPath());
-                dataOutputStream.flush();
-                // close stream operation
-                dataOutputStream.close();
-                out.close();
-                int value = process.waitFor();
-
-                if (value == 0) {
-                    Log.i(TAG , "Install Success");
-                    result = true;
-                } else if (value == 1) {
-                    Log.i(TAG , "Install Fail！");
-                    result = false;
-                } else {
-                    Log.i(TAG , "Unknown Situation");
-                    result = false;
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            if (!result) {
-                Log.i(TAG , "root privilege acquire fail，next normal install");
-                normalInstall(mContext);
-                result = true;
-            }
-        }
-        return result;
-    }
-
 
     /**
      *  resource change, assets apk move to available read-write floder
@@ -270,7 +237,6 @@ public class MainActivity extends AppCompatActivity {
         intent.setAction(android.content.Intent.ACTION_VIEW);
         intent.setDataAndType(Uri.fromFile(file), "application/vnd.android.package-archive");
         context.startActivity(intent);
-        openApp(mContext);
     }
 
     /*
@@ -291,9 +257,9 @@ public class MainActivity extends AppCompatActivity {
     /*
     *   activate app
      */
-    private static void activateApp(Context context)
+    private void activateApp(Context context)
     {
-        Log.i(TAG, "open App  ");
+        Log.i(TAG, "activate App  ");
         String s = "am start -S  " + packageName + "/"
                 + packageName + "." + className + " \n";
         Log.i(TAG, s);
@@ -303,7 +269,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      *  open app
      */
-    private static void openApp(Context context)
+    private void openApp(Context context)
     {
         Log.i(TAG, "open App  ");
         String s = "am start -S  " + packageName + "/"
@@ -315,7 +281,7 @@ public class MainActivity extends AppCompatActivity {
     /*
       *  close app
      */
-    private static void closeApp(Context context)
+    private void closeApp(Context context)
     {
         Log.i(TAG, "close App");
 //        String s = "am force-stop " + packageName + " \n";
@@ -332,7 +298,7 @@ public class MainActivity extends AppCompatActivity {
      * @param cmds
      * @return
      */
-    private static boolean execRootShellCmd(String... cmds)
+    private boolean execRootShellCmd(String... cmds)
     {
         if (cmds == null || cmds.length == 0) {
             return false;
@@ -340,18 +306,16 @@ public class MainActivity extends AppCompatActivity {
 
         DataOutputStream dos = null;
         InputStream dis = null;
-        Process p = null;
         try
         {
-            p = Runtime.getRuntime().exec("su");// 经过Root处理的android系统即有su命令
-            dos = new DataOutputStream(p.getOutputStream());
+            dos = new DataOutputStream(process.getOutputStream());
 
             for (int i = 0; i < cmds.length; i++) {
                 dos.writeBytes(cmds[i] + " \n");
             }
             dos.writeBytes("exit \n");
 
-            int code = p.waitFor();
+            int code = process.waitFor();
 
             return code == 0;
         } catch (Exception e)
@@ -375,9 +339,9 @@ public class MainActivity extends AppCompatActivity {
                 e2.printStackTrace();
             }
             try {
-                if (p != null) {
-                    p.destroy();
-                    p = null;
+                if (process != null) {
+//                    process.destroy();
+//                    process = null;
                 }
             } catch (Exception e3) {
                 e3.printStackTrace();
@@ -386,3 +350,4 @@ public class MainActivity extends AppCompatActivity {
         return false;
     }
 }
+
