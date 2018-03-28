@@ -18,10 +18,10 @@ android xposed 模块如何开发？ |[官网的案例实现，监听系统时�
 启动XposedInstaller 时隐藏Activity    | [android启动时隐藏Activity](https://www.jianshu.com/p/3afcaa959de2)  | ok
 一键激活XposdInstaller | 修改XposedInstaller源码(CustomActivity.java)   | ok
 给激活后的XposedInstaller添加宿主程序到Module中并激活宿主程序  | 修改XposedInstaller源码(CustomActivity.java)，现在宿主程序包名(com.example.eric.myapplication)    | ok
-修改MainActivity.java，实现宿主程序后仅申请一次权限，xposedInstaller也是一次权限 |    初始化后只执行一次Runtime.getRuntime().exec("su");    | ok  
 给宿主程序打包并安装到真机中 |     打包测试,需要购买真机    |  waiting
 Android版本与XposedInstaller版本的适配   | 需要给不同的XposedInstaller重新编译。 | waiting
 现在版本的XposedInstaller 报出 ： the latest version of xposed is currently not active.   | waiting 可能是最新版本的XposedInstaller可以安装在低版本上， 后续来看    | waiting
+添加一键卸载Xposed和宿主程序	| 修改MainActivity	| ok
 深入学习Xposed 开发     | 官网源码以及一些社区      | `ing`
 添加一键卸载xposed程序后自动重启方法彻底清除XposedInstaller    |   coding |
 编写一个申请权限的Demo, 向系统访问各种权限  | coding  |

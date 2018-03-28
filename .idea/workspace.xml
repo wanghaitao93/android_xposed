@@ -12,43 +12,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="201380c2-518a-4102-a7de-5e7a88d5b4ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/release/app-release.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-08-42-37-285.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-08-43-17-056.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-08-43-39-037.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-08-49-37-727.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-10-26-13-491.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-10-27-37-443.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-10-29-05-794.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-10-32-10-572.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-11-04-12-005.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-11-57-13-854.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-13-48-32-975.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/release/output.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-08-42-37-285.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-08-43-17-056.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-08-43-39-037.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-08-49-37-727.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-10-26-13-491.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-10-27-37-443.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-10-29-05-794.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-10-32-10-572.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-11-04-12-005.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-11-57-13-854.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-27-13-48-32-975.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/release/app-release.apk" afterPath="$PROJECT_DIR$/app/release/app-release.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/RootUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/RootUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,14 +50,14 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
+            <state relative-caret-position="350">
               <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
           </provider>
         </entry>
       </file>
@@ -98,7 +74,7 @@
       <file leaf-file-name="InstallReceiver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/InstallReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="200">
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
@@ -111,8 +87,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="250">
+              <caret line="70" column="42" lean-forward="false" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -121,24 +97,35 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-950">
-              <caret line="46" column="64" lean-forward="true" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
+            <state relative-caret-position="300">
+              <caret line="263" column="0" lean-forward="true" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
               <folding>
                 <element signature="docComment;class#MainActivity#0" expanded="false" />
                 <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+                <element signature="e#1611#1626#0" expanded="false" />
+                <element signature="docComment;method#slientInstall#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#installFromAssets#0;class#MainActivity#0" expanded="false" />
+                <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
+                <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#7000#7062#0" expanded="false" />
+                <element signature="e#7569#7631#0" expanded="false" />
                 <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
                 <element signature="docComment;method#openApp#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#openApp#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
-                <element signature="docComment;method#execRootShellCmd#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#execRootShellCmd#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#9375#9415#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RootUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/RootUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -146,7 +133,7 @@
       <file leaf-file-name="Process.class" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/lang/Process.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
+            <state relative-caret-position="175">
               <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding />
             </state>
@@ -163,8 +150,8 @@
       <file leaf-file-name="Runtime.class" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/lang/Runtime.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="350">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -173,8 +160,8 @@
       <file leaf-file-name="Tutorial.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/Tutorial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" column="58" lean-forward="false" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+            <state relative-caret-position="350">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -192,7 +179,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>result</find>
       <find>startapp</find>
       <find>mPackageInfo</find>
       <find>tempPath</find>
@@ -222,6 +208,7 @@
       <find>super</find>
       <find>process</find>
       <find>openApp</find>
+      <find>true</find>
     </findStrings>
     <replaceStrings>
       <replace>openApp</replace>
@@ -2011,12 +1998,12 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/eric/myapplication/R.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/InstallReceiver.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/RootUtils.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/Tutorial.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/lang/Runtime.class" />
         <option value="$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/io/DataOutputStream.class" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/RootUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java" />
       </list>
     </option>
@@ -2249,36 +2236,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mipmap-hdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android_xposed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android_xposed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2443,7 +2400,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522132075415" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522205473020" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2491,7 +2448,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522132075415" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522205473020" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2523,27 +2480,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -2674,7 +2610,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522132075416" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522205473020" />
       </method>
     </configuration>
     <list size="1">
@@ -2727,10 +2663,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23986095" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36152956" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2748,7 +2685,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2757,7 +2693,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java</url>
+          <line>256</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2769,18 +2713,19 @@
           <folding>
             <element signature="docComment;class#MainActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#1611#1626#0" expanded="false" />
+            <element signature="docComment;method#slientInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#installFromAssets#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
             <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7000#7062#0" expanded="false" />
+            <element signature="e#7569#7631#0" expanded="false" />
             <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
             <element signature="docComment;method#openApp#0;class#MainActivity#0" expanded="false" />
             <element signature="method#openApp#0;class#MainActivity#0" expanded="false" />
             <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#execRootShellCmd#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#execRootShellCmd#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#9375#9415#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2813,17 +2758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <marker date="1522117547792" expanded="true" signature="1336:1561" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1365:1541" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1582:1657" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1677:1820" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1840:1917" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1999:2367" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="2028:2347" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="2369:2501" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="2388:2482" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2863,18 +2797,19 @@
           <folding>
             <element signature="docComment;class#MainActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#1611#1626#0" expanded="false" />
+            <element signature="docComment;method#slientInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#installFromAssets#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
             <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7000#7062#0" expanded="false" />
+            <element signature="e#7569#7631#0" expanded="false" />
             <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
             <element signature="docComment;method#openApp#0;class#MainActivity#0" expanded="false" />
             <element signature="method#openApp#0;class#MainActivity#0" expanded="false" />
             <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#execRootShellCmd#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#execRootShellCmd#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#9375#9415#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2907,17 +2842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <marker date="1522117547792" expanded="true" signature="1336:1561" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1365:1541" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1582:1657" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1677:1820" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1840:1917" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1999:2367" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="2028:2347" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="2369:2501" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="2388:2482" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2947,18 +2871,19 @@
           <folding>
             <element signature="docComment;class#MainActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#1611#1626#0" expanded="false" />
+            <element signature="docComment;method#slientInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#installFromAssets#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
             <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7000#7062#0" expanded="false" />
+            <element signature="e#7569#7631#0" expanded="false" />
             <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
             <element signature="docComment;method#openApp#0;class#MainActivity#0" expanded="false" />
             <element signature="method#openApp#0;class#MainActivity#0" expanded="false" />
             <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#execRootShellCmd#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#execRootShellCmd#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#9375#9415#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2993,17 +2918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <marker date="1522117547792" expanded="true" signature="1336:1561" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1365:1541" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1582:1657" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1677:1820" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1840:1917" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1999:2367" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="2028:2347" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="2369:2501" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="2388:2482" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3051,18 +2965,19 @@
           <folding>
             <element signature="docComment;class#MainActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#1611#1626#0" expanded="false" />
+            <element signature="docComment;method#slientInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#installFromAssets#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
             <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7000#7062#0" expanded="false" />
+            <element signature="e#7569#7631#0" expanded="false" />
             <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
             <element signature="docComment;method#openApp#0;class#MainActivity#0" expanded="false" />
             <element signature="method#openApp#0;class#MainActivity#0" expanded="false" />
             <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#execRootShellCmd#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#execRootShellCmd#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#9375#9415#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3087,17 +3002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <marker date="1522117547792" expanded="true" signature="1336:1561" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1365:1541" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1582:1657" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1677:1820" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1840:1917" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1999:2367" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="2028:2347" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="2369:2501" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="2388:2482" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3137,18 +3041,19 @@
           <folding>
             <element signature="docComment;class#MainActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#1611#1626#0" expanded="false" />
+            <element signature="docComment;method#slientInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#installFromAssets#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
             <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7000#7062#0" expanded="false" />
+            <element signature="e#7569#7631#0" expanded="false" />
             <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
             <element signature="docComment;method#openApp#0;class#MainActivity#0" expanded="false" />
             <element signature="method#openApp#0;class#MainActivity#0" expanded="false" />
             <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#execRootShellCmd#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#execRootShellCmd#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#9375#9415#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3198,31 +3103,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/RootUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <marker date="1522117547792" expanded="true" signature="1336:1561" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1365:1541" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1582:1657" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1677:1820" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1840:1917" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="1999:2367" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="2028:2347" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="2369:2501" ph="..." />
-            <marker date="1522117547792" expanded="true" signature="2388:2482" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3235,60 +3119,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/de.robv.android.xposed.installer_v33_36570c.apk" />
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/lang/Runtime.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk">
       <provider selected="true" editor-type-id="apk-viewer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/Tutorial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="58" lean-forward="false" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-manifest">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/InstallReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="350">
+          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/lang/Process.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
+        <state relative-caret-position="175">
           <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding />
         </state>
@@ -3298,29 +3147,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/lang/Runtime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/Tutorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/InstallReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/RootUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="70" column="42" lean-forward="false" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-950">
-          <caret line="46" column="64" lean-forward="true" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
+        <state relative-caret-position="300">
+          <caret line="263" column="0" lean-forward="true" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#MainActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#1611#1626#0" expanded="false" />
+            <element signature="docComment;method#slientInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#installFromAssets#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
             <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7000#7062#0" expanded="false" />
+            <element signature="e#7569#7631#0" expanded="false" />
             <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
             <element signature="docComment;method#openApp#0;class#MainActivity#0" expanded="false" />
             <element signature="method#openApp#0;class#MainActivity#0" expanded="false" />
             <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#execRootShellCmd#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#execRootShellCmd#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#9375#9415#0" expanded="false" />
           </folding>
         </state>
       </provider>

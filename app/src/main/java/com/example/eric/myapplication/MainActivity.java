@@ -11,12 +11,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.OutputStream;
 
 /**
  * Created by eric on 2018/3/13.
@@ -36,15 +34,16 @@ public class MainActivity extends AppCompatActivity {
     private Button btn_activate_app;
     private Button btn_open_app;
     private Button btn_close_app;
+    private Button btn_uninstall_all;
 
-    private static Process process = null;
 
     // xposed package info
-//    private static String apkName = "de.robv.android.xposed.installer_v33_36570c.apk";
     private static String apkName = "app-release.apk";
     private static String packageName = "de.robv.android.xposed.installer";
     private static String className = "CustomActivity";
     private static String className_Welcome = "WelcomeActivity";
+
+    private boolean isInstalledAPP = false;
 
 
 
@@ -53,18 +52,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        try {
-            process = Runtime.getRuntime().exec("su");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            process = Runtime.getRuntime().exec("su");
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
 
+
+        tv = findViewById(R.id.textView);
         btn_check_root = findViewById(R.id.btn_check_root);
         btn_install_apk = findViewById(R.id.btn_install_apk);
         btn_uninstall_app = findViewById(R.id.btn_uninstall_app);
         btn_open_app = findViewById(R.id.btn_open_app);
         btn_close_app = findViewById(R.id.btn_close_app);
         btn_activate_app = findViewById(R.id.btn_activate_app);
+        btn_uninstall_all = findViewById(R.id.btn_uninstall_all);
 
         // check machine whether root
         btn_check_root.setOnClickListener(new View.OnClickListener() {
@@ -83,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view)
             {
                 installFromAssets();
+                tv.setText((isInstalledAPP) ? "installed app" : "not install app");
             }
         });
 
@@ -91,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view)
             {
-                uninstalllAPP();
+                tv.setText((uninstalllAPP()) ? "uninstall success" : "uninstall fail");
             }
         });
 
@@ -99,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
         btn_activate_app.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                activateApp(mContext);
+                tv.setText((activateApp(mContext)) ? "activated success" : "activated fail");
             }
         });
 
@@ -108,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view)
             {
-                openApp(mContext);
+                tv.setText((openApp(mContext)) ? "open success" : "open fail");
             }
         });
 
@@ -117,7 +120,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view)
             {
-                closeApp(mContext);
+                tv.setText((closeApp(mContext)) ? "close success" : "close fail");
+            }
+        });
+
+        btn_uninstall_all.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                uninstallAllApp();
             }
         });
 
@@ -135,8 +145,8 @@ public class MainActivity extends AppCompatActivity {
         if (file.exists()) {
             System.out.println(file.getPath() + "==");
             String s1 = "chmod 777 " + file.getPath()+ "\n";
-            String s2 = "LD_LIBRARY_PATH=/vendor/lib:/system/lib pm install -r " + file.getPath();
-            execRootShellCmd(s1, s2);
+            String s2 = "LD_LIBRARY_PATH=/vendor/lib:/system/lib pm install -r " + file.getPath() + "\n";
+            isInstalledAPP = RootUtils.execRootShellCmd(s1, s2);
         }
     }
 
@@ -169,6 +179,7 @@ public class MainActivity extends AppCompatActivity {
             }).start();
         } else {
             Log.i(TAG , "installed apk");
+            isInstalledAPP = true;
         }
     }
 
@@ -242,7 +253,7 @@ public class MainActivity extends AppCompatActivity {
     /*
     *  uninstall app
      */
-    public void uninstalllAPP()
+    public boolean uninstalllAPP()
     {
 //        Uri packageUri = Uri.parse("package:"+ packageName);
 //        Intent intent = new Intent(Intent.ACTION_DELETE, packageUri);
@@ -250,104 +261,59 @@ public class MainActivity extends AppCompatActivity {
         Log.i(TAG, "uninstall app");
         String s = "pm uninstall " + packageName + "\n";
         Log.i(TAG, s);
-        execRootShellCmd(s);
+
+        return RootUtils.execRootShellCmd(s);
     }
 
 
     /*
     *   activate app
      */
-    private void activateApp(Context context)
+    private boolean activateApp(Context context)
     {
         Log.i(TAG, "activate App  ");
         String s = "am start -S  " + packageName + "/"
                 + packageName + "." + className + " \n";
         Log.i(TAG, s);
-        execRootShellCmd(s);
+        return RootUtils.execRootShellCmd(s);
     }
 
     /**
      *  open app
      */
-    private void openApp(Context context)
+    private boolean openApp(Context context)
     {
         Log.i(TAG, "open App  ");
         String s = "am start -S  " + packageName + "/"
                 + packageName + "." + className_Welcome + " \n";
         Log.i(TAG, s);
-        execRootShellCmd(s);
+        return RootUtils.execRootShellCmd(s);
     }
 
     /*
       *  close app
      */
-    private void closeApp(Context context)
+    private boolean closeApp(Context context)
     {
         Log.i(TAG, "close App");
 //        String s = "am force-stop " + packageName + " \n";
         String s = "am force-stop " + packageName + " \n";
 
         Log.i(TAG, s);
-        execRootShellCmd(s);
+        return RootUtils.execRootShellCmd(s);
     }
 
-
-    /**
-     * exe shell command
-     *
-     * @param cmds
-     * @return
-     */
-    private boolean execRootShellCmd(String... cmds)
+    public void uninstallAllApp()
     {
-        if (cmds == null || cmds.length == 0) {
-            return false;
-        }
+        Log.i(TAG, "uninstall app");
 
-        DataOutputStream dos = null;
-        InputStream dis = null;
-        try
-        {
-            dos = new DataOutputStream(process.getOutputStream());
+        String s1 = "pm uninstall " + packageName + "\n";
+        String s2 = "pm uninstall " + "com.example.eric.myapplication" + "\n";
 
-            for (int i = 0; i < cmds.length; i++) {
-                dos.writeBytes(cmds[i] + " \n");
-            }
-            dos.writeBytes("exit \n");
+        Log.i(TAG, s1);
+        Log.i(TAG, s2);
 
-            int code = process.waitFor();
-
-            return code == 0;
-        } catch (Exception e)
-        {
-            e.printStackTrace();
-        }
-        finally
-        {
-            try {
-                if (dos != null) {
-                    dos.close();
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            try {
-                if (dis != null) {
-                    dis.close();
-                }
-            } catch (Exception e2) {
-                e2.printStackTrace();
-            }
-            try {
-                if (process != null) {
-//                    process.destroy();
-//                    process = null;
-                }
-            } catch (Exception e3) {
-                e3.printStackTrace();
-            }
-        }
-        return false;
+        RootUtils.execRootShellCmd(s1, s2);
     }
 }
 
