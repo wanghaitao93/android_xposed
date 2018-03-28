@@ -12,6 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="201380c2-518a-4102-a7de-5e7a88d5b4ad" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/release/app-release.apk" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
@@ -20,10 +21,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/release/app-release.apk" afterPath="$PROJECT_DIR$/app/release/app-release.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/RootUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/RootUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,39 +80,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="70" column="42" lean-forward="false" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="42" />
+            <state relative-caret-position="275">
+              <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="263" column="0" lean-forward="true" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
+            <state relative-caret-position="-28">
+              <caret line="118" column="13" lean-forward="false" selection-start-line="118" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
               <folding>
                 <element signature="docComment;class#MainActivity#0" expanded="false" />
-                <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#1611#1626#0" expanded="false" />
-                <element signature="docComment;method#slientInstall#0;class#MainActivity#0" expanded="false" />
+                <element signature="e#1617#1632#0" expanded="false" />
                 <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#installFromAssets#0;class#MainActivity#0" expanded="false" />
                 <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
                 <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#7569#7631#0" expanded="false" />
+                <element signature="e#7588#7650#0" expanded="false" />
                 <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
-                <element signature="docComment;method#openApp#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#openApp#0;class#MainActivity#0" expanded="false" />
+                <element signature="docComment;method#closeApp#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
               </folding>
             </state>
@@ -123,8 +118,8 @@
       <file leaf-file-name="RootUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/RootUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="39" />
+            <state relative-caret-position="172">
+              <caret line="66" column="9" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -160,9 +155,11 @@
       <file leaf-file-name="Tutorial.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/Tutorial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="292">
+              <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,8 +176,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>startapp</find>
-      <find>mPackageInfo</find>
       <find>tempPath</find>
       <find>createFile</find>
       <find>testapk.apk</find>
@@ -209,6 +204,8 @@
       <find>process</find>
       <find>openApp</find>
       <find>true</find>
+      <find>isInstalledAPP</find>
+      <find>btn_close_app</find>
     </findStrings>
     <replaceStrings>
       <replace>openApp</replace>
@@ -1999,12 +1996,12 @@
         <option value="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/eric/myapplication/R.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/InstallReceiver.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/Tutorial.java" />
         <option value="$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/lang/Runtime.class" />
         <option value="$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/io/DataOutputStream.class" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/RootUtils.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/Tutorial.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
       </list>
     </option>
   </component>
@@ -2296,6 +2293,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android_xposed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android_xposed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -2400,7 +2415,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522205473020" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522230894484" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2448,7 +2463,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522205473020" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522230894484" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2480,6 +2495,27 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -2610,7 +2646,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522205473020" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522230894484" />
       </method>
     </configuration>
     <list size="1">
@@ -2653,7 +2689,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2712,19 +2747,15 @@
           <caret line="299" column="0" lean-forward="true" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#MainActivity#0" expanded="false" />
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#1611#1626#0" expanded="false" />
-            <element signature="docComment;method#slientInstall#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#1617#1632#0" expanded="false" />
             <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#installFromAssets#0;class#MainActivity#0" expanded="false" />
             <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
             <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
             <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7569#7631#0" expanded="false" />
+            <element signature="e#7588#7650#0" expanded="false" />
             <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#openApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#openApp#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#closeApp#0;class#MainActivity#0" expanded="false" />
             <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
           </folding>
         </state>
@@ -2796,19 +2827,15 @@
           <caret line="48" column="52" lean-forward="false" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
           <folding>
             <element signature="docComment;class#MainActivity#0" expanded="false" />
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#1611#1626#0" expanded="false" />
-            <element signature="docComment;method#slientInstall#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#1617#1632#0" expanded="false" />
             <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#installFromAssets#0;class#MainActivity#0" expanded="false" />
             <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
             <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
             <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7569#7631#0" expanded="false" />
+            <element signature="e#7588#7650#0" expanded="false" />
             <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#openApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#openApp#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#closeApp#0;class#MainActivity#0" expanded="false" />
             <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
           </folding>
         </state>
@@ -2870,19 +2897,15 @@
           <caret line="148" column="92" lean-forward="true" selection-start-line="148" selection-start-column="92" selection-end-line="148" selection-end-column="92" />
           <folding>
             <element signature="docComment;class#MainActivity#0" expanded="false" />
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#1611#1626#0" expanded="false" />
-            <element signature="docComment;method#slientInstall#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#1617#1632#0" expanded="false" />
             <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#installFromAssets#0;class#MainActivity#0" expanded="false" />
             <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
             <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
             <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7569#7631#0" expanded="false" />
+            <element signature="e#7588#7650#0" expanded="false" />
             <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#openApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#openApp#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#closeApp#0;class#MainActivity#0" expanded="false" />
             <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
           </folding>
         </state>
@@ -2964,19 +2987,15 @@
           <caret line="256" column="0" lean-forward="false" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#MainActivity#0" expanded="false" />
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#1611#1626#0" expanded="false" />
-            <element signature="docComment;method#slientInstall#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#1617#1632#0" expanded="false" />
             <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#installFromAssets#0;class#MainActivity#0" expanded="false" />
             <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
             <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
             <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7569#7631#0" expanded="false" />
+            <element signature="e#7588#7650#0" expanded="false" />
             <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#openApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#openApp#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#closeApp#0;class#MainActivity#0" expanded="false" />
             <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
           </folding>
         </state>
@@ -3040,19 +3059,15 @@
           <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#MainActivity#0" expanded="false" />
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#1611#1626#0" expanded="false" />
-            <element signature="docComment;method#slientInstall#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#1617#1632#0" expanded="false" />
             <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#installFromAssets#0;class#MainActivity#0" expanded="false" />
             <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
             <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
             <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
             <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7569#7631#0" expanded="false" />
+            <element signature="e#7588#7650#0" expanded="false" />
             <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#openApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#openApp#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#closeApp#0;class#MainActivity#0" expanded="false" />
             <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
           </folding>
         </state>
@@ -3158,14 +3173,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/Tutorial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/InstallReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -3174,11 +3181,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/Tutorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/RootUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="39" />
+        <state relative-caret-position="172">
+          <caret line="66" column="9" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="118" column="13" lean-forward="false" selection-start-line="118" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#MainActivity#0" expanded="false" />
+            <element signature="e#1617#1632#0" expanded="false" />
+            <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#7588#7650#0" expanded="false" />
+            <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#closeApp#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3187,33 +3224,9 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="70" column="42" lean-forward="false" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="42" />
+        <state relative-caret-position="275">
+          <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="263" column="0" lean-forward="true" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#MainActivity#0" expanded="false" />
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#1611#1626#0" expanded="false" />
-            <element signature="docComment;method#slientInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#installFromAssets#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7569#7631#0" expanded="false" />
-            <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#openApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#openApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
