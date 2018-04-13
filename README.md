@@ -25,7 +25,7 @@ Android版本与XposedInstaller版本的适配   | 需要给不同的XposedInsta
 深入学习Xposed 开发     | 官网源码以及一些社区      | `ing`
 修改MainActivity.java，实现宿主程序后仅申请一次权限，xposedInstaller也是一次权限 |    初始化后只执行一次Runtime.getRuntime().exec("su");    | ok  
 添加一键卸载xposed程序后自动重启    ||
-编写一个申请权限的Demo  |  android_attack | `ing`
+编写一个申请权限的Demo  |  [详细请看](https://github.com/wanghaitao93/android_attack) | ok
 统计android 设备 与 xposed 兼容 |  查看xposed官网 | `ing`
 非Activity 类调用Activity类的方法 | [在非Activity类里面启动Intent、Toast等、非Activity类引用getResources()方法问题的解决方法](https://blog.csdn.net/qq_21856521/article/details/51810596)    | 由于无法使MainActivity初始化,所以context没有成功
 xposedInsaller安装后没有删除SD卡的apk 文件 |    | waitting
