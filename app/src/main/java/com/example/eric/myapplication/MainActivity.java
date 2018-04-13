@@ -1,11 +1,13 @@
 package com.example.eric.myapplication;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -25,14 +27,17 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
     private String tempPath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/temp.apk";
     private PackageInfo mPackageInfo;
-    private Context mContext = MainActivity.this;
+    public  Context mContext = MainActivity.this;
+
+    public static MainActivity mainActiviy;
+    public static Context m_static_context;
 
     private TextView tv;
 //    private Button btn_check_root;
     private Button btn_install_apk;
     private Button btn_uninstall_app;
     private Button btn_activate_app;
-//    private Button btn_open_app;
+    private Button btn_open_app;
 //    private Button btn_close_app;
     private Button btn_uninstall_all;
 
@@ -42,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
     private static String packageName = "de.robv.android.xposed.installer";
     private static String className = "CustomActivity";
     private static String className_Welcome = "WelcomeActivity";
-
     private boolean isInstalledAPP = false;
 
 
@@ -52,18 +56,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        try {
-//            process = Runtime.getRuntime().exec("su");
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
+        mainActiviy = this;
+        m_static_context = this.getBaseContext();
 
 
         tv = findViewById(R.id.textView);
 //        btn_check_root = findViewById(R.id.btn_check_root);
         btn_install_apk = findViewById(R.id.btn_install_apk);
         btn_uninstall_app = findViewById(R.id.btn_uninstall_app);
-//        btn_open_app = findViewById(R.id.btn_open_app);
+        btn_open_app = findViewById(R.id.btn_open_app);
 //        btn_close_app = findViewById(R.id.btn_close_app);
         btn_activate_app = findViewById(R.id.btn_activate_app);
         btn_uninstall_all = findViewById(R.id.btn_uninstall_all);
@@ -107,13 +108,13 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // open app
-//        btn_open_app.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view)
-//            {
-//                tv.setText((openApp(mContext)) ? "open success" : "open fail");
-//            }
-//        });
+        btn_open_app.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                tv.setText((openApp(mContext)) ? "open success" : "open fail");
+            }
+        });
 
         // close app
 //        btn_close_app.setOnClickListener(new View.OnClickListener() {
@@ -281,14 +282,14 @@ public class MainActivity extends AppCompatActivity {
     /**
      *  open app
      */
-//    private boolean openApp(Context context)
-//    {
-//        Log.i(TAG, "open App  ");
-//        String s = "am start -S  " + packageName + "/"
-//                + packageName + "." + className_Welcome + " \n";
-//        Log.i(TAG, s);
-//        return RootUtils.execRootShellCmd(s);
-//    }
+    private boolean openApp(Context context)
+    {
+        Log.i(TAG, "open App  ");
+        String s = "am start -S  " + packageName + "/"
+                + packageName + "." + className_Welcome + " \n";
+        Log.i(TAG, s);
+        return RootUtils.execRootShellCmd(s);
+    }
 
     /*
       *  close app

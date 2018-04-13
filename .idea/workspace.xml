@@ -6,13 +6,12 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="com.example.eric.myapplication" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="xposed" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="201380c2-518a-4102-a7de-5e7a88d5b4ad" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/release/app-release.apk" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
@@ -23,6 +22,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/Tutorial.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/Tutorial.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,119 +47,192 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
+      <file leaf-file-name="Tutorial.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/Tutorial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-              <folding />
+            <state relative-caret-position="225">
+              <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xposed_init" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/xposed_init">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InstallReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/InstallReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+            <state relative-caret-position="1450">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
-              <caret line="118" column="13" lean-forward="false" selection-start-line="118" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
-              <folding>
-                <element signature="docComment;class#MainActivity#0" expanded="false" />
-                <element signature="e#1617#1632#0" expanded="false" />
-                <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
-                <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
-                <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#7588#7650#0" expanded="false" />
-                <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
-                <element signature="docComment;method#closeApp#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RootUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/RootUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="66" column="9" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+            <state relative-caret-position="475">
+              <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Process.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/lang/Process.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app-debug.apk" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk">
-          <provider selected="true" editor-type-id="apk-viewer">
+          <provider editor-type-id="android-manifest">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Runtime.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/lang/Runtime.class">
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="200">
+              <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tutorial.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/Tutorial.java">
+      <file leaf-file-name="AlertDialog.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/26.0.0-beta1/5a4cc7ec044d7eae1329c19157a30f518f89a38d/appcompat-v7-26.0.0-beta1-sources.jar!/android/support/v7/app/AlertDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="5025">
+              <caret line="258" column="0" lean-forward="false" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#41092#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3184#3185#0" expanded="false" />
+                <element signature="e#3216#3217#0" expanded="false" />
+                <element signature="e#4963#4964#0" expanded="false" />
+                <element signature="e#5015#5016#0" expanded="false" />
+                <element signature="e#5174#5175#0" expanded="false" />
+                <element signature="e#5217#5218#0" expanded="false" />
+                <element signature="e#5534#5535#0" expanded="false" />
+                <element signature="e#5588#5589#0" expanded="false" />
+                <element signature="e#5759#5760#0" expanded="false" />
+                <element signature="e#5801#5802#0" expanded="false" />
+                <element signature="e#5967#5968#0" expanded="false" />
+                <element signature="e#6003#6004#0" expanded="false" />
+                <element signature="e#7010#7011#0" expanded="false" />
+                <element signature="e#7069#7070#0" expanded="false" />
+                <element signature="e#8743#8744#0" expanded="false" />
+                <element signature="e#8780#8781#0" expanded="false" />
+                <element signature="e#8984#8985#0" expanded="false" />
+                <element signature="e#9020#9021#0" expanded="false" />
+                <element signature="e#10525#10526#0" expanded="false" />
+                <element signature="e#10594#10595#0" expanded="false" />
+                <element signature="e#12705#12706#0" expanded="false" />
+                <element signature="e#12746#12747#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppCompatDelegateImplV9.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/26.0.0-beta1/5a4cc7ec044d7eae1329c19157a30f518f89a38d/appcompat-v7-26.0.0-beta1-sources.jar!/android/support/v7/app/AppCompatDelegateImplV9.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6625">
+              <caret line="350" column="44" lean-forward="false" selection-start-line="350" selection-start-column="44" selection-end-line="350" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#83784#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#20605#20606#0" expanded="false" />
+                <element signature="e#20652#20653#0" expanded="false" />
+                <element signature="e#26825#26826#0" expanded="false" />
+                <element signature="e#26863#26864#0" expanded="false" />
+                <element signature="e#58448#58449#0" expanded="false" />
+                <element signature="e#58512#58513#0" expanded="false" />
+                <element signature="e#70552#70553#0" expanded="false" />
+                <element signature="e#70584#70585#0" expanded="false" />
+                <element signature="e#71743#71744#0" expanded="false" />
+                <element signature="e#71785#71786#0" expanded="false" />
+                <element signature="e#81183#81184#0" expanded="false" />
+                <element signature="e#81223#81224#0" expanded="false" />
+                <element signature="e#82324#82325#0" expanded="false" />
+                <element signature="e#82395#82396#0" expanded="false" />
+                <element signature="e#82479#82480#0" expanded="false" />
+                <element signature="e#82546#82547#0" expanded="false" />
+                <element signature="e#82695#82696#0" expanded="false" />
+                <element signature="e#82733#82734#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="R.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33375">
+              <caret line="1340" column="32" lean-forward="false" selection-start-line="1340" selection-start-column="32" selection-end-line="1340" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#115036#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppCompatDialog.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/26.0.0-beta1/5a4cc7ec044d7eae1329c19157a30f518f89a38d/appcompat-v7-26.0.0-beta1-sources.jar!/android/support/v7/app/AppCompatDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1275">
+              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#5677#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1395#1396#0" expanded="false" />
+                <element signature="e#1427#1428#0" expanded="false" />
+                <element signature="e#2669#2670#0" expanded="false" />
+                <element signature="e#2727#2728#0" expanded="false" />
+                <element signature="e#2919#2920#0" expanded="false" />
+                <element signature="e#2969#2970#0" expanded="false" />
+                <element signature="e#3206#3207#0" expanded="false" />
+                <element signature="e#3259#3260#0" expanded="false" />
+                <element signature="e#4632#4633#0" expanded="false" />
+                <element signature="e#4685#4686#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlertController.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/26.0.0-beta1/5a4cc7ec044d7eae1329c19157a30f518f89a38d/appcompat-v7-26.0.0-beta1-sources.jar!/android/support/v7/app/AlertController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4150">
+              <caret line="225" column="0" lean-forward="false" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#41653#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#4828#4829#0" expanded="false" />
+                <element signature="e#4889#4890#0" expanded="false" />
+                <element signature="e#8021#8022#0" expanded="false" />
+                <element signature="e#8071#8072#0" expanded="false" />
+                <element signature="e#9307#9308#0" expanded="false" />
+                <element signature="e#9358#9359#0" expanded="false" />
+                <element signature="e#12414#12415#0" expanded="false" />
+                <element signature="e#12446#12447#0" expanded="false" />
+                <element signature="e#20756#20757#0" expanded="false" />
+                <element signature="e#20860#20861#0" expanded="false" />
+                <element signature="e#21728#21729#0" expanded="false" />
+                <element signature="e#21830#21831#0" expanded="false" />
+                <element signature="e#30018#30019#0" expanded="false" />
+                <element signature="e#30061#30062#0" expanded="false" />
+                <element signature="e#41504#41505#0" expanded="false" />
+                <element signature="e#41539#41540#0" expanded="false" />
+                <element signature="e#41604#41605#0" expanded="false" />
+                <element signature="e#41643#41644#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dialog.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/android/app/Dialog.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5275">
+              <caret line="354" column="0" lean-forward="false" selection-start-line="354" selection-start-column="0" selection-end-line="354" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -176,7 +249,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tempPath</find>
       <find>createFile</find>
       <find>testapk.apk</find>
       <find>test</find>
@@ -206,6 +278,7 @@
       <find>true</find>
       <find>isInstalledAPP</find>
       <find>btn_close_app</find>
+      <find>context</find>
     </findStrings>
     <replaceStrings>
       <replace>openApp</replace>
@@ -1996,12 +2069,18 @@
         <option value="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/eric/myapplication/R.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/InstallReceiver.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/lang/Runtime.class" />
         <option value="$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/io/DataOutputStream.class" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/RootUtils.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/Tutorial.java" />
+        <option value="$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/lang/Override.class" />
+        <option value="$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/lang/ClassLoader.class" />
+        <option value="$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/android/os/Binder.class" />
+        <option value="$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/android/widget/Toast.class" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java" />
+        <option value="$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/lang/Runtime.class" />
+        <option value="$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/android/os/Handler.class" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/android/app/Dialog.class" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/Tutorial.java" />
       </list>
     </option>
   </component>
@@ -2026,7 +2105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2115,6 +2193,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2314,11 +2393,11 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sign_file/sign.jks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../android_attack" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/eric/Project/android_xposed/app/src/main/java/com/example/eric/myapplication/RootUtils.java" />
     <property name="device.picker.selection" value="192.168.117.101:5555" />
     <property name="ExportApk.ApkPath" value="C:\Users\eric\Project\android_xposed\app" />
@@ -2326,6 +2405,8 @@
     <property name="ExportApk.BuildType" value="release" />
     <property name="ExportApk.SignV1" value="true" />
     <property name="ExportApk.SignV2" value="true" />
+    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.proportion" value="0.15" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -2414,8 +2495,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522230894484" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523607996869" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2462,8 +2542,7 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method>
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522230894484" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523607996869" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2495,27 +2574,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -2645,8 +2703,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522230894484" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523607996870" />
       </method>
     </configuration>
     <list size="1">
@@ -2690,36 +2747,36 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36152956" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25107297" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5040556" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25482833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2728,14 +2785,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java</url>
-          <line>256</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
@@ -2743,170 +2792,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6925">
-          <caret line="299" column="0" lean-forward="true" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#MainActivity#0" expanded="false" />
-            <element signature="e#1617#1632#0" expanded="false" />
-            <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7588#7650#0" expanded="false" />
-            <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#closeApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/InstallReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/RootUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="48" column="52" lean-forward="false" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
-          <folding>
-            <element signature="docComment;class#MainActivity#0" expanded="false" />
-            <element signature="e#1617#1632#0" expanded="false" />
-            <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7588#7650#0" expanded="false" />
-            <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#closeApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/InstallReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3700">
           <caret line="148" column="92" lean-forward="true" selection-start-line="148" selection-start-column="92" selection-end-line="148" selection-end-column="92" />
           <folding>
-            <element signature="docComment;class#MainActivity#0" expanded="false" />
-            <element signature="e#1617#1632#0" expanded="false" />
-            <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7588#7650#0" expanded="false" />
-            <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#closeApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2767#2980#0" expanded="false" />
+            <element signature="e#2979#2980#0" expanded="false" />
+            <element signature="e#3054#3273#0" expanded="false" />
+            <element signature="e#3272#3273#0" expanded="false" />
+            <element signature="e#3345#3558#0" expanded="false" />
+            <element signature="e#3557#3558#0" expanded="false" />
+            <element signature="e#3622#3833#0" expanded="false" />
+            <element signature="e#3832#3833#0" expanded="false" />
+            <element signature="e#4176#4330#0" expanded="false" />
+            <element signature="e#4329#4330#0" expanded="false" />
+            <element signature="e#5415#5705#0" expanded="false" />
+            <element signature="e#5704#5705#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2933,7 +2834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2948,7 +2848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="30" column="64" lean-forward="false" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2967,7 +2866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56950">
           <caret line="2278" column="53" lean-forward="false" selection-start-line="2278" selection-start-column="53" selection-end-line="2279" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2986,17 +2884,19 @@
         <state relative-caret-position="5875">
           <caret line="256" column="0" lean-forward="false" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
           <folding>
-            <element signature="docComment;class#MainActivity#0" expanded="false" />
-            <element signature="e#1617#1632#0" expanded="false" />
-            <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7588#7650#0" expanded="false" />
-            <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#closeApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2767#2980#0" expanded="false" />
+            <element signature="e#2979#2980#0" expanded="false" />
+            <element signature="e#3054#3273#0" expanded="false" />
+            <element signature="e#3272#3273#0" expanded="false" />
+            <element signature="e#3345#3558#0" expanded="false" />
+            <element signature="e#3557#3558#0" expanded="false" />
+            <element signature="e#3622#3833#0" expanded="false" />
+            <element signature="e#3832#3833#0" expanded="false" />
+            <element signature="e#4176#4330#0" expanded="false" />
+            <element signature="e#4329#4330#0" expanded="false" />
+            <element signature="e#5415#5705#0" expanded="false" />
+            <element signature="e#5704#5705#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3013,7 +2913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3028,7 +2927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3058,17 +2956,19 @@
         <state relative-caret-position="1775">
           <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding>
-            <element signature="docComment;class#MainActivity#0" expanded="false" />
-            <element signature="e#1617#1632#0" expanded="false" />
-            <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7588#7650#0" expanded="false" />
-            <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#closeApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2767#2980#0" expanded="false" />
+            <element signature="e#2979#2980#0" expanded="false" />
+            <element signature="e#3054#3273#0" expanded="false" />
+            <element signature="e#3272#3273#0" expanded="false" />
+            <element signature="e#3345#3558#0" expanded="false" />
+            <element signature="e#3557#3558#0" expanded="false" />
+            <element signature="e#3622#3833#0" expanded="false" />
+            <element signature="e#3832#3833#0" expanded="false" />
+            <element signature="e#4176#4330#0" expanded="false" />
+            <element signature="e#4329#4330#0" expanded="false" />
+            <element signature="e#5415#5705#0" expanded="false" />
+            <element signature="e#5704#5705#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3098,15 +2998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56825">
           <caret line="2278" column="53" lean-forward="false" selection-start-line="2278" selection-start-column="53" selection-end-line="2279" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3114,7 +3005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3125,36 +3015,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/xposed_init">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/de.robv.android.xposed.installer_v33_36570c.apk" />
     <entry file="file://$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk">
       <provider selected="true" editor-type-id="apk-viewer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/lang/Process.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3165,57 +3035,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/lang/Runtime.class">
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/xposed_init">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.robv.android.xposed/api/82/2030f71764b06b2f39fa1a85660690aa834cfd84/api-82-sources.jar!/de/robv/android/xposed/XposedHelpers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17300">
+          <caret line="716" column="20" lean-forward="false" selection-start-line="716" selection-start-column="20" selection-end-line="716" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/lang/Override.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.robv.android.xposed/api/82/2030f71764b06b2f39fa1a85660690aa834cfd84/api-82-sources.jar!/de/robv/android/xposed/IXposedHookLoadPackage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/InstallReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="350">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/Tutorial.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.robv.android.xposed/api/82/2030f71764b06b2f39fa1a85660690aa834cfd84/api-82-sources.jar!/de/robv/android/xposed/XC_MethodHook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="2025">
+          <caret line="92" column="10" lean-forward="false" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/android/os/Binder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1625">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/lang/ClassLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="140" column="0" lean-forward="true" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.robv.android.xposed/api/82/2030f71764b06b2f39fa1a85660690aa834cfd84/api-82-sources.jar!/de/robv/android/xposed/callbacks/XC_LoadPackage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="24" column="54" lean-forward="false" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/android/widget/Toast.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/java/lang/Runtime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/RootUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="66" column="9" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="1775">
+          <caret line="78" column="48" lean-forward="false" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="118" column="13" lean-forward="false" selection-start-line="118" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
+        <state relative-caret-position="175">
+          <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
           <folding>
-            <element signature="docComment;class#MainActivity#0" expanded="false" />
-            <element signature="e#1617#1632#0" expanded="false" />
-            <element signature="method#slientInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#createFile#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#createFile#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#normalInstall#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7588#7650#0" expanded="false" />
-            <element signature="method#activateApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;method#closeApp#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#closeApp#0;class#MainActivity#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2767#2980#0" expanded="false" />
+            <element signature="e#2979#2980#0" expanded="false" />
+            <element signature="e#3054#3273#0" expanded="false" />
+            <element signature="e#3272#3273#0" expanded="false" />
+            <element signature="e#3345#3558#0" expanded="false" />
+            <element signature="e#3557#3558#0" expanded="false" />
+            <element signature="e#3622#3833#0" expanded="false" />
+            <element signature="e#3832#3833#0" expanded="false" />
+            <element signature="e#4176#4330#0" expanded="false" />
+            <element signature="e#4329#4330#0" expanded="false" />
+            <element signature="e#5415#5705#0" expanded="false" />
+            <element signature="e#5704#5705#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/android/os/Handler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="143" column="8" lean-forward="false" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -3224,9 +3157,168 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+        <state relative-caret-position="1450">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/android/app/Dialog.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5275">
+          <caret line="354" column="0" lean-forward="false" selection-start-line="354" selection-start-column="0" selection-end-line="354" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/26.0.0-beta1/5a4cc7ec044d7eae1329c19157a30f518f89a38d/appcompat-v7-26.0.0-beta1-sources.jar!/android/support/v7/app/AlertDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5025">
+          <caret line="258" column="0" lean-forward="false" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41092#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3184#3185#0" expanded="false" />
+            <element signature="e#3216#3217#0" expanded="false" />
+            <element signature="e#4963#4964#0" expanded="false" />
+            <element signature="e#5015#5016#0" expanded="false" />
+            <element signature="e#5174#5175#0" expanded="false" />
+            <element signature="e#5217#5218#0" expanded="false" />
+            <element signature="e#5534#5535#0" expanded="false" />
+            <element signature="e#5588#5589#0" expanded="false" />
+            <element signature="e#5759#5760#0" expanded="false" />
+            <element signature="e#5801#5802#0" expanded="false" />
+            <element signature="e#5967#5968#0" expanded="false" />
+            <element signature="e#6003#6004#0" expanded="false" />
+            <element signature="e#7010#7011#0" expanded="false" />
+            <element signature="e#7069#7070#0" expanded="false" />
+            <element signature="e#8743#8744#0" expanded="false" />
+            <element signature="e#8780#8781#0" expanded="false" />
+            <element signature="e#8984#8985#0" expanded="false" />
+            <element signature="e#9020#9021#0" expanded="false" />
+            <element signature="e#10525#10526#0" expanded="false" />
+            <element signature="e#10594#10595#0" expanded="false" />
+            <element signature="e#12705#12706#0" expanded="false" />
+            <element signature="e#12746#12747#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/26.0.0-beta1/5a4cc7ec044d7eae1329c19157a30f518f89a38d/appcompat-v7-26.0.0-beta1-sources.jar!/android/support/v7/app/AppCompatDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#5677#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1395#1396#0" expanded="false" />
+            <element signature="e#1427#1428#0" expanded="false" />
+            <element signature="e#2669#2670#0" expanded="false" />
+            <element signature="e#2727#2728#0" expanded="false" />
+            <element signature="e#2919#2920#0" expanded="false" />
+            <element signature="e#2969#2970#0" expanded="false" />
+            <element signature="e#3206#3207#0" expanded="false" />
+            <element signature="e#3259#3260#0" expanded="false" />
+            <element signature="e#4632#4633#0" expanded="false" />
+            <element signature="e#4685#4686#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/26.0.0-beta1/5a4cc7ec044d7eae1329c19157a30f518f89a38d/appcompat-v7-26.0.0-beta1-sources.jar!/android/support/v7/app/AlertController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4150">
+          <caret line="225" column="0" lean-forward="false" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41653#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4828#4829#0" expanded="false" />
+            <element signature="e#4889#4890#0" expanded="false" />
+            <element signature="e#8021#8022#0" expanded="false" />
+            <element signature="e#8071#8072#0" expanded="false" />
+            <element signature="e#9307#9308#0" expanded="false" />
+            <element signature="e#9358#9359#0" expanded="false" />
+            <element signature="e#12414#12415#0" expanded="false" />
+            <element signature="e#12446#12447#0" expanded="false" />
+            <element signature="e#20756#20757#0" expanded="false" />
+            <element signature="e#20860#20861#0" expanded="false" />
+            <element signature="e#21728#21729#0" expanded="false" />
+            <element signature="e#21830#21831#0" expanded="false" />
+            <element signature="e#30018#30019#0" expanded="false" />
+            <element signature="e#30061#30062#0" expanded="false" />
+            <element signature="e#41504#41505#0" expanded="false" />
+            <element signature="e#41539#41540#0" expanded="false" />
+            <element signature="e#41604#41605#0" expanded="false" />
+            <element signature="e#41643#41644#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/26.0.0-beta1/5a4cc7ec044d7eae1329c19157a30f518f89a38d/appcompat-v7-26.0.0-beta1-sources.jar!/android/support/v7/app/AppCompatDelegateImplV9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6625">
+          <caret line="350" column="44" lean-forward="false" selection-start-line="350" selection-start-column="44" selection-end-line="350" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#83784#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#20605#20606#0" expanded="false" />
+            <element signature="e#20652#20653#0" expanded="false" />
+            <element signature="e#26825#26826#0" expanded="false" />
+            <element signature="e#26863#26864#0" expanded="false" />
+            <element signature="e#58448#58449#0" expanded="false" />
+            <element signature="e#58512#58513#0" expanded="false" />
+            <element signature="e#70552#70553#0" expanded="false" />
+            <element signature="e#70584#70585#0" expanded="false" />
+            <element signature="e#71743#71744#0" expanded="false" />
+            <element signature="e#71785#71786#0" expanded="false" />
+            <element signature="e#81183#81184#0" expanded="false" />
+            <element signature="e#81223#81224#0" expanded="false" />
+            <element signature="e#82324#82325#0" expanded="false" />
+            <element signature="e#82395#82396#0" expanded="false" />
+            <element signature="e#82479#82480#0" expanded="false" />
+            <element signature="e#82546#82547#0" expanded="false" />
+            <element signature="e#82695#82696#0" expanded="false" />
+            <element signature="e#82733#82734#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33375">
+          <caret line="1340" column="32" lean-forward="false" selection-start-line="1340" selection-start-column="32" selection-end-line="1340" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#115036#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eric/myapplication/Tutorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -48,14 +48,14 @@
         android:layout_marginTop="21dp"
     android:text="Activate Xposed" />
 
-    <!--<Button-->
-        <!--android:id="@+id/btn_open_app"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_below="@+id/btn_activate_app"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--android:layout_marginTop="19dp"-->
-        <!--android:text="Open App" />-->
+    <Button
+        android:id="@+id/btn_open_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_activate_app"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:text="Open App" />
 
     <!--<Button-->
         <!--android:id="@+id/btn_close_app"-->
