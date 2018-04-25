@@ -18,19 +18,20 @@ android xposed 模块如何开发？ |[官网的案例实现，监听系统时�
 启动XposedInstaller 时隐藏Activity    | [android启动时隐藏Activity](https://www.jianshu.com/p/3afcaa959de2)  | ok
 一键激活XposdInstaller | 修改XposedInstaller源码(CustomActivity.java)   | ok
 给激活后的XposedInstaller添加宿主程序到Module中并激活宿主程序  | 修改XposedInstaller源码(CustomActivity.java)，现在宿主程序包名(com.example.eric.myapplication)    | ok
-给宿主程序打包并安装到真机中 |     打包测试    | `ing`
+给宿主程序打包并安装到真机中 |     打包测试    | `waiting`
 Android版本与XposedInstaller版本的适配   | 需要给不同的XposedInstaller重新编译。 |
 现在版本的XposedInstaller 报出 ： the latest version of xposed is currently not active.   | android5.0以下应该使用xposedInstaller2.7版本， 参考[xposedinstaller2.7](https://github.com/rovo89/XposedInstaller/releases/tag/2.7-experimental1)， 后续来看    | waitting
 实现一键卸载Xposed与宿主程序    |   添加exeRootShellCmd方法参数 | ok
-深入学习Xposed 开发     | 官网源码以及一些社区      | `ing`
+深入学习Xposed 开发     | 官网源码以及一些社区      |ok 
 修改MainActivity.java，实现宿主程序后仅申请一次权限，xposedInstaller也是一次权限 |    初始化后只执行一次Runtime.getRuntime().exec("su");    | ok  
 添加一键卸载xposed程序后自动重启    ||
 编写一个申请权限的Demo  |  [详细请看](https://github.com/wanghaitao93/android_attack) | ok
-统计android 设备 与 xposed 兼容 |  查看xposed官网 | `ing`
+统计android 设备 与 xposed 兼容 |  查看xposed官网 | `waiting`
 非Activity 类调用Activity类的方法 | [在非Activity类里面启动Intent、Toast等、非Activity类引用getResources()方法问题的解决方法](https://blog.csdn.net/qq_21856521/article/details/51810596)    | 由于无法使MainActivity初始化,所以context没有成功
 xposedInsaller安装后没有删除SD卡的apk 文件 |    | waitting
 区别系统应用与用户应用的方法    |   | ok
 添加java.lang.Runtime获取root权限检测方法|  修改Tutorial，添加hook方法  | ok
-调研android 权限，查看监控的权限方法    | 查看源码，或者相关书籍文献  ## 进度表
+修改superUser获取数据库源码	| 查看SuperUser源码	| `ing`
+监控修改数据权限的类	| 调研数据权限类 	| `ing`
 
 
