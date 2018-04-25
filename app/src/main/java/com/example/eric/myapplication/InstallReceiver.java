@@ -5,8 +5,9 @@ import android.content.Context;
 import android.content.Intent;
 
 /**
- * supervise whether update / install / uninstall
+ * Created by eric on 2018/3/13.
  */
+
 public class InstallReceiver extends BroadcastReceiver {
 
     @Override
@@ -21,7 +22,6 @@ public class InstallReceiver extends BroadcastReceiver {
         if (intent.getAction().equals("android.intent.action.PACKAGE_ADDED")) {
             String packageName = intent.getDataString();
             System.out.println("installed : " + packageName + " package name");
-            // 监测到升级后执行app的启动 只能启动自身 一般用于软件更新
 //            startApp(context);
         }
 

@@ -11,9 +11,8 @@ import java.io.OutputStream;
 
 public class RootUtils {
 
-    public static final String TAG = "RootUtils";
+    private static final String TAG = "RootUtils";
     private static Process process = null;
-
 
     @Deprecated
     public static boolean isRooted() {
@@ -31,12 +30,16 @@ public class RootUtils {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
             String s = bufferedReader.readLine();
             if (s.contains("uid=0")) return true;
-        } catch (IOException e)
+        }
+        catch (IOException e)
         {
             Log.e(TAG, "don't have root privilege");
-        } catch (InterruptedException e) {
+        }
+        catch (InterruptedException e) {
             e.printStackTrace();
-        } finally {
+        }
+        finally
+        {
             if (process != null)
                 process.destroy();
         }
@@ -46,9 +49,12 @@ public class RootUtils {
     public static boolean checkRooted()
     {
         boolean result = false;
-        try {
+        try
+        {
             result = new File("/system/bin/su").exists() || new File("/system/xbin/su").exists();
-        } catch (Exception e) {
+        }
+        catch (Exception e)
+        {
             e.printStackTrace();
         }
         return result;
@@ -56,9 +62,6 @@ public class RootUtils {
 
     /**
      * exe shell command
-     *
-     * @param cmds
-     * @return
      */
     public static boolean execRootShellCmd(String... cmds)
     {
@@ -70,18 +73,16 @@ public class RootUtils {
         InputStream dis = null;
         try
         {
-
             process = Runtime.getRuntime().exec("su");
-
             dos = new DataOutputStream(process.getOutputStream());
 
-            for (int i = 0; i < cmds.length; i++) {
+            for (int i = 0; i < cmds.length; i++)
+            {
                 dos.writeBytes(cmds[i] + " \n");
             }
             dos.writeBytes("exit \n");
 
             int code = process.waitFor();
-
             return code == 0;
 
         } catch (Exception e)

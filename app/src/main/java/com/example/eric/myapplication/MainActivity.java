@@ -25,30 +25,25 @@ import java.io.InputStream;
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
+
     private String tempPath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/temp.apk";
     private PackageInfo mPackageInfo;
     public  Context mContext = MainActivity.this;
 
-    public static MainActivity mainActiviy;
-    public static Context m_static_context;
-
     private TextView tv;
-//    private Button btn_check_root;
     private Button btn_install_apk;
     private Button btn_uninstall_app;
     private Button btn_activate_app;
     private Button btn_open_app;
-//    private Button btn_close_app;
     private Button btn_uninstall_all;
 
-
     // xposed package info
-    private static String apkName = "app-release.apk";
+    private static String installApkName = "Xposed_Installer.apk";
     private static String packageName = "de.robv.android.xposed.installer";
-    private static String className = "CustomActivity";
+    private static String className_Custom = "CustomActivity";
     private static String className_Welcome = "WelcomeActivity";
-    private boolean isInstalledAPP = false;
 
+    private boolean isInstalledAPP = false;
 
 
     @Override
@@ -56,16 +51,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mainActiviy = this;
-        m_static_context = this.getBaseContext();
-
-
         tv = findViewById(R.id.textView);
-//        btn_check_root = findViewById(R.id.btn_check_root);
         btn_install_apk = findViewById(R.id.btn_install_apk);
         btn_uninstall_app = findViewById(R.id.btn_uninstall_app);
-        btn_open_app = findViewById(R.id.btn_open_app);
-//        btn_close_app = findViewById(R.id.btn_close_app);
+//        btn_open_app = findViewById(R.id.btn_open_app);
         btn_activate_app = findViewById(R.id.btn_activate_app);
         btn_uninstall_all = findViewById(R.id.btn_uninstall_all);
 
@@ -81,7 +70,8 @@ public class MainActivity extends AppCompatActivity {
 //        });
 
         // install apk
-        btn_install_apk.setOnClickListener(new View.OnClickListener() {
+        btn_install_apk.setOnClickListener(new View.OnClickListener()
+        {
             @Override
             public void onClick(View view)
             {
@@ -91,7 +81,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // uninstall app
-        btn_uninstall_app.setOnClickListener(new View.OnClickListener() {
+        btn_uninstall_app.setOnClickListener(new View.OnClickListener()
+        {
             @Override
             public void onClick(View view)
             {
@@ -100,39 +91,36 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // activate app
-        btn_activate_app.setOnClickListener(new View.OnClickListener() {
+        btn_activate_app.setOnClickListener(new View.OnClickListener()
+        {
             @Override
-            public void onClick(View view) {
+            public void onClick(View view)
+            {
                 tv.setText((activateApp(mContext)) ? "activated success" : "activated fail");
             }
         });
 
         // open app
-        btn_open_app.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view)
-            {
-                tv.setText((openApp(mContext)) ? "open success" : "open fail");
-            }
-        });
-
-        // close app
-//        btn_close_app.setOnClickListener(new View.OnClickListener() {
+//        btn_open_app.setOnClickListener(new View.OnClickListener()
+//        {
 //            @Override
 //            public void onClick(View view)
 //            {
-//                tv.setText((closeApp(mContext)) ? "close success" : "close fail");
+//                tv.setText((openApp(mContext)) ? "open success" : "open fail");
 //            }
 //        });
 
-        btn_uninstall_all.setOnClickListener(new View.OnClickListener() {
+        // uninstall self and XposedInstaller app
+        btn_uninstall_all.setOnClickListener(new View.OnClickListener()
+        {
             @Override
-            public void onClick(View view) {
+            public void onClick(View view)
+            {
                 uninstallAllApp();
             }
         });
-
     }
+
 
     /**
      * install apk but hidden install interface
@@ -143,7 +131,8 @@ public class MainActivity extends AppCompatActivity {
         Log.i(TAG, "start slient install apk");
         File file = new File(tempPath);
         Log.i(TAG , "file.getPath()：" + file.getPath());
-        if (file.exists()) {
+        if (file.exists())
+        {
             System.out.println(file.getPath() + "==");
             String s1 = "chmod 777 " + file.getPath()+ "\n";
             String s2 = "LD_LIBRARY_PATH=/vendor/lib:/system/lib pm install -r " + file.getPath() + "\n";
@@ -193,7 +182,7 @@ public class MainActivity extends AppCompatActivity {
         try
         {
             // acquire assets floder xposed apk
-            is = getAssets().open(apkName);
+            is = getAssets().open(installApkName);
 
             File file = new File(tempPath);
             Log.i(TAG, "tempPath" + tempPath);
@@ -235,7 +224,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
     /**
      *  traditional install
      */
@@ -256,16 +244,12 @@ public class MainActivity extends AppCompatActivity {
      */
     public boolean uninstalllAPP()
     {
-//        Uri packageUri = Uri.parse("package:"+ packageName);
-//        Intent intent = new Intent(Intent.ACTION_DELETE, packageUri);
-//        startActivity(intent);
         Log.i(TAG, "uninstall app");
         String s = "pm uninstall " + packageName + "\n";
         Log.i(TAG, s);
 
         return RootUtils.execRootShellCmd(s);
     }
-
 
     /*
     *   activate app
@@ -274,7 +258,7 @@ public class MainActivity extends AppCompatActivity {
     {
         Log.i(TAG, "activate App  ");
         String s = "am start -S  " + packageName + "/"
-                + packageName + "." + className + " \n";
+                + packageName + "." + className_Custom + " \n";
         Log.i(TAG, s);
         return RootUtils.execRootShellCmd(s);
     }
@@ -297,13 +281,14 @@ public class MainActivity extends AppCompatActivity {
     private boolean closeApp(Context context)
     {
         Log.i(TAG, "close App");
-//        String s = "am force-stop " + packageName + " \n";
         String s = "am force-stop " + packageName + " \n";
-
         Log.i(TAG, s);
         return RootUtils.execRootShellCmd(s);
     }
 
+    /*f
+    *  unintall self and xposed_installer app
+     */
     public void uninstallAllApp()
     {
         Log.i(TAG, "uninstall app");

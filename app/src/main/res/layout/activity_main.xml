@@ -7,18 +7,6 @@
     android:layout_height="match_parent"
     tools:context="com.example.eric.myapplication.MainActivity">
 
-
-
-    <!--<Button-->
-        <!--android:id="@+id/btn_check_root"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_below="@+id/textView"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--android:layout_marginTop="30dp"-->
-        <!--android:text="Check Root" />-->
-
-
     <Button
         android:id="@+id/btn_install_apk"
         android:layout_width="wrap_content"
@@ -48,22 +36,14 @@
         android:layout_marginTop="21dp"
     android:text="Activate Xposed" />
 
-    <Button
-        android:id="@+id/btn_open_app"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btn_activate_app"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="55dp"
-        android:text="Open App" />
-
     <!--<Button-->
-        <!--android:id="@+id/btn_close_app"-->
+        <!--android:id="@+id/btn_open_app"-->
         <!--android:layout_width="wrap_content"-->
         <!--android:layout_height="wrap_content"-->
         <!--android:layout_below="@+id/btn_activate_app"-->
         <!--android:layout_centerHorizontal="true"-->
-        <!--android:text="Close Xposed" />-->
+        <!--android:layout_marginTop="55dp"-->
+        <!--android:text="Open App" />-->
 
     <Button
         android:id="@+id/btn_uninstall_all"
@@ -83,7 +63,7 @@
         android:layout_centerHorizontal="true"
         android:text="\n  点击INSTALL XPOSED 按钮进行Xposed的安装，提示申请系统权限选择永久。\n\n
 
-点击ACTIVATE XPOSED 按钮进行激活Xposed框架以及安全防护APP的Hook功能。提示重启，当重启机器后发现右上角的时钟数字变成了绿色。\n\n
+点击ACTIVATE XPOSED 按钮进行激活Xposed框架以及安全防护APP的Hook功能。提示重启，当重启机器后Hook方法激活。\n\n
 
 点击UNINSTALL XPOSED 按钮，卸载XPOSED程序。\n\n
 
