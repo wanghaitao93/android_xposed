@@ -74,6 +74,7 @@ public class RootUtils {
         try
         {
             process = Runtime.getRuntime().exec("su");
+
             dos = new DataOutputStream(process.getOutputStream());
 
             for (int i = 0; i < cmds.length; i++)
@@ -82,7 +83,10 @@ public class RootUtils {
             }
             dos.writeBytes("exit \n");
 
+            dos.flush();
+
             int code = process.waitFor();
+            Log.i(TAG, "code " + code);
             return code == 0;
 
         } catch (Exception e)

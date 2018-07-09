@@ -23,4 +23,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     provided 'de.robv.android.xposed:api:82'
     provided 'de.robv.android.xposed:api:82:sources'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
 }
